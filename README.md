@@ -10,7 +10,7 @@ library(devtools)
 install_github("statsun78/kogo")
 
 ## Install R packages 'pclgot' and 'VennDiagram'
-## For window users, 'pclogit' requires the program 'Rtools'.
+## For Window users, 'pclogit' requires the program 'Rtools'.
 install_github("statsun78/pclogit")
 install.packages("VennDiagram")
 
@@ -22,7 +22,7 @@ biocLite("AnnotationDbi")
 biocLite("hu6800.db")
 biocLite("qvalue")
 
-## Load seven R packages. If there are no errors occurs, you are all set.
+## Load the seven packages below. If there are no errors, you are all set.
 library(kogo)
 library(pclogit)
 library(VennDiagram)

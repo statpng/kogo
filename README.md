@@ -3,14 +3,14 @@
 
 ## Installation
 ```
-## Install R packages `devtools' and `kogo'
-## The `kogo' package contains `glmnet', `SGL', `gglasso'
+## Install R packages 'devtools' and 'kogo'
+## The 'kogo' package contains 'glmnet', 'SGL', 'gglasso'
 install.packages("devtools")
 library(devtools)
 install_github("statsun78/kogo")
 
-## Install R packages `pclgot' and `VennDiagram'
-## For window users, `pclogit' requires the program `Rtools'.
+## Install R packages 'pclgot' and 'VennDiagram'
+## For window users, 'pclogit' requires the program 'Rtools'.
 install_github("statsun78/pclogit")
 install.packages("VennDiagram")
 
@@ -22,7 +22,7 @@ biocLite("AnnotationDbi")
 biocLite("hu6800.db")
 biocLite("qvalue")
 
-## If there are no errors, you are all set.
+## Load seven R packages. If there are no errors occurs, you are all set.
 library(kogo)
 library(pclogit)
 library(VennDiagram)

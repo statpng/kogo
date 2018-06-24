@@ -1,0 +1,10 @@
+Package: kogo
+Type: Package
+Title: KOGO statistical genetics workshop pacakge
+Version: 0.1.2
+Author: Hokeun Sun 
+Depends: glmnet, gglasso, SGL 
+Maintainer: Hokeun Sun <hsun@pusan.ac.kr>
+Description: This package is for 2018 KOGO statistical genetics workshop. The package includes 27K ovarian cancer data
+License: GPL-2
+LazyData: TRUE

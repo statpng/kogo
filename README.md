@@ -5,10 +5,11 @@
 ## Installation
 You need to install:
 
-1. `R` 
+1. `R` from [__CRAN__](https://cran.r-project.org/)
 2. `devtools` package
-3. development tools (`rtools` for _(Windows users)_ and `Xcode Command Line Tools` for _(macOS users)_)
+3. development tools (`rtools` for _Windows users_ and `Xcode Command Line Tools` for _macOS users_)
 
+### 
 ```
 ## Install R packages 'devtools' and 'kogo'
 ## The 'kogo' package contains 'glmnet', 'SGL', 'gglasso'

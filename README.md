@@ -7,7 +7,7 @@ You first need to install:
 
 1. `R` from [__CRAN__](https://cran.r-project.org/)
 2. `devtools` package
-3. development tools (`rtools` for _Windows users_ and `Xcode Command Line Tools` for _macOS users_)
+3. development tools (`rtools` for _Windows_ users and `Xcode Command Line Tools` for _macOS_ users)
 
 ### Install `devtools` package
 ```
@@ -17,16 +17,23 @@ library(devtools)
 ```
 
 ### Install development tools
-__Windows__ users have to:
+_Windows_ users have to:
 
 1. Install [Rtools](https://cran.r-project.org/bin/windows/Rtools/).
 2. Restart R session.
-3. Run the following code in R command line:
+3. Run the following code in R command line (if R 3.5.x):
 ```r
 library(devtools)
 assignInNamespace("version_info", c(devtools:::version_info, list("3.5" = list(version_min = "3.3.0", version_max = "99.99.99", path = "bin"))), "devtools")
 ```
+If you have installed R 3.4.x on your machine, Step 3 is not necessary. 
 
+_macOS_ users have to:
+
+1. Install [Xcode command-line tools](https://developer.apple.com/download/more/).
+2. Restart R session.
+
+### Install R packages
 ```
 ## Install R packages 'devtools' and 'kogo'
 ## The 'kogo' package contains 'glmnet', 'SGL', 'gglasso'

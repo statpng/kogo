@@ -3,13 +3,21 @@
 (6. Multi-omics Data Analysis by Hokeun Sun)
 
 ## Installation
-You need to install:
+You first need to install:
 
 1. `R` from [__CRAN__](https://cran.r-project.org/)
 2. `devtools` package
 3. development tools (`rtools` for _Windows users_ and `Xcode Command Line Tools` for _macOS users_)
 
-### 
+### Install `devtools` and `kogo` packages
+```
+## Install R packages 'devtools' and 'kogo'
+install.packages("devtools")
+library(devtools)
+install_github("statsun78/kogo")
+```
+
+
 ```
 ## Install R packages 'devtools' and 'kogo'
 ## The 'kogo' package contains 'glmnet', 'SGL', 'gglasso'

@@ -34,14 +34,11 @@ For _macOS_ users,
 
 ### Install R packages
 ```
-## Install R packages 'devtools' and 'kogo'
+## Install R package 'kogo'
 ## The 'kogo' package contains 'glmnet', 'SGL', 'gglasso'
-install.packages("devtools")
-library(devtools)
 install_github("statsun78/kogo")
 
 ## Install R packages 'pclgot' and 'VennDiagram'
-## For Window users, 'pclogit' requires the program 'Rtools'.
 install_github("statsun78/pclogit")
 install.packages("VennDiagram")
 
@@ -52,7 +49,10 @@ biocLite("bit")
 biocLite("AnnotationDbi")
 biocLite("hu6800.db")
 biocLite("qvalue")
+```
 
+### Load All R packages
+```
 ## Load the seven packages below. If there are no errors, you are all set.
 library(kogo)
 library(pclogit)

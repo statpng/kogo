@@ -1,7 +1,14 @@
 # kogo
-2018 KOGO statistical genetics workshop 
+2018 KOGO statistical genetics workshop
+(6. Multi-omics Data Analysis by Hokeun Sun)
 
 ## Installation
+You need to install:
+
+1. `R` 
+2. `devtools` package
+3. development tools (`rtools` for Windows users and `Xcode Command Line Tools` for macOS users)
+
 ```
 ## Install R packages 'devtools' and 'kogo'
 ## The 'kogo' package contains 'glmnet', 'SGL', 'gglasso'

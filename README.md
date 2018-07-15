@@ -9,14 +9,23 @@ You first need to install:
 2. `devtools` package
 3. development tools (`rtools` for _Windows users_ and `Xcode Command Line Tools` for _macOS users_)
 
-### Install `devtools` and `kogo` packages
+### Install `devtools` package
 ```
-## Install R packages 'devtools' and 'kogo'
+## Install R packages 'devtools'
 install.packages("devtools")
 library(devtools)
-install_github("statsun78/kogo")
 ```
 
+### Install development tools
+__Windows__ users have to:
+
+1. Install [Rtools](https://cran.r-project.org/bin/windows/Rtools/).
+2. Restart R session.
+3. Run the following code in R command line:
+```r
+library(devtools)
+assignInNamespace("version_info", c(devtools:::version_info, list("3.5" = list(version_min = "3.3.0", version_max = "99.99.99", path = "bin"))), "devtools")
+```
 
 ```
 ## Install R packages 'devtools' and 'kogo'

@@ -13,7 +13,6 @@ You first need to install:
 ```
 ## Install R packages 'devtools'
 install.packages("devtools")
-library(devtools)
 ```
 
 ### Install development tools
@@ -21,12 +20,12 @@ For _Windows_ users,
 
 1. Install [Rtools](https://cran.r-project.org/bin/windows/Rtools/).
 2. Restart R session.
-3. Run the following code in R command line (if R 3.5.x):
+3. Run the following code in R command line (if R version 3.5.x):
 ```r
 library(devtools)
 assignInNamespace("version_info", c(devtools:::version_info, list("3.5" = list(version_min = "3.3.0", version_max = "99.99.99", path = "bin"))), "devtools")
 ```
-  (If you have installed R 3.4.x on your machine, Step 3 is not necessary.) 
+  (If you have installed R version 3.4.x on your machine, Step 3 is __not__ necessary.) 
 
 For _macOS_ users, 
 

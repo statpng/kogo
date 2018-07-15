@@ -51,7 +51,7 @@ biocLite("hu6800.db")
 biocLite("qvalue")
 ```
 
-### Load All R packages
+### Load R packages
 ```
 ## Load the seven packages below. If there are no errors, you are all set.
 library(kogo)

@@ -17,7 +17,7 @@ library(devtools)
 ```
 
 ### Install development tools
-_Windows_ users have to:
+For _Windows_ users, 
 
 1. Install [Rtools](https://cran.r-project.org/bin/windows/Rtools/).
 2. Restart R session.
@@ -26,9 +26,9 @@ _Windows_ users have to:
 library(devtools)
 assignInNamespace("version_info", c(devtools:::version_info, list("3.5" = list(version_min = "3.3.0", version_max = "99.99.99", path = "bin"))), "devtools")
 ```
-If you have installed R 3.4.x on your machine, Step 3 is not necessary. 
+  (If you have installed R 3.4.x on your machine, Step 3 is not necessary.) 
 
-_macOS_ users have to:
+For _macOS_ users, 
 
 1. Install [Xcode command-line tools](https://developer.apple.com/download/more/).
 2. Restart R session.

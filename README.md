@@ -7,7 +7,7 @@ You need to install:
 
 1. `R` 
 2. `devtools` package
-3. development tools (`rtools` for Windows users and `Xcode Command Line Tools` for macOS users)
+3. development tools (`rtools` for _(Windows users)_ and `Xcode Command Line Tools` for _(macOS users)_)
 
 ```
 ## Install R packages 'devtools' and 'kogo'

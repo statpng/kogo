@@ -1,6 +1,5 @@
 # kogo
-2018 KOGO statistical genetics workshop
-
+2018 KOGO statistical genetics workshop 
 (6. Multi-omics Data Analysis by Hokeun Sun)
 
 ## Installation
